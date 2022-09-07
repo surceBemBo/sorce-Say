@@ -8,7 +8,7 @@
 
 ✟︙ الكود ،
 
-git clone https://github.com/RHHPP/sorce-Say/tree/main/libs && cd TEXAS && chmod +x tg && chmod +x RUNFA.sh && chmod +x FA && ./RUNFA.sh
+git clone https://github.com/RHHPP/sorce-Say/tree/main && cd TEXAS && chmod +x tg && chmod +x RUNFA.sh && chmod +x FA && ./RUNFA.sh
 
 • ┉ • ┉ • ┉ • ┉ • ┉ • ┉ • ┉ •
 
