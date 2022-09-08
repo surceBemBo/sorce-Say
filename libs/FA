@@ -2,7 +2,7 @@
  cd $(cd $(dirname $0); pwd) 
   
  if [ ! -f "./FA.txt" ]; then 
- lua ./FAEDER.lua 
+ lua ./TEXAS.lua 
  exit; 
  else 
  Token=`cat ./FA.txt` 
@@ -10,7 +10,7 @@
  BotUser=$(redis-cli get ${BotId}:BotUser:) 
  if [[ $BotUser == "" ]]; then 
  rm -fr ./FA.txt 
- lua ./FAEDER.lua 
+ lua ./TEXAS.lua 
  exit; 
  fi 
  fi 
@@ -20,7 +20,7 @@
  if [ "$1" == "F" ]; then 
  while(true) do 
  sudo rm -fr ~/.telegram-cli 
- ./tg -s ./FAEDER.lua $@ --bot=$Token 
+ ./tg -s ./TEXAS.lua $@ --bot=$Token 
  done 
  else 
  if ! screen -list | grep -q "$BotUser"; then 
